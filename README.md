@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
 # Read the data from the aud1 library
-data = pd.read_sas("\\vfhomefls01\\tcerrato\\AUDIT_2021_DEMO.sas7bdat", format='sas7bdat')
+data = pd.read_sas(XXXXXX)
 
 # Convert Sex variable from character to numeric
 data['Sex_num'] = np.where(data['Sex'] == "Female", 0,
